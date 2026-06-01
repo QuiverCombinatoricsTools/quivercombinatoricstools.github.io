@@ -13,3 +13,14 @@
 * Emanuel Roth (University of Edinburgh)
 
 We were supervised by Gwyn Bellamy (University of Glasgow), as part of an [AGQ](https://www.agq-cdt.org/) computing project. The project is licensed under the *MIT license*. We are open to improvements and suggestions.
+
+# How to cite QuiverCombinatoricsTools
+
+If you have used this code in any way, please consider citing it in the following way.
+```
+@software{quivercombinatoricstools,
+  author = {Caba, Tudor-Ioan and Lam, Mia and Roth, Emanuel},
+  title = {QuiverCombinatoricsTools},
+  url = {https://quivercombinatoricstools.github.io},
+}
+```
