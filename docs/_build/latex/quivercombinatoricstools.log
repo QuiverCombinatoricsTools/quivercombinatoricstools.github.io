@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.6.9)  1 JUN 2026 13:03
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.6.9)  1 JUN 2026 16:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/s2712241/Documents/PhD/AGQ Computing Project/QuiverCombinatoricsTools/docs/_build/latex/quivercombinatoricstools.tex"
-(/home/s2712241/Documents/PhD/AGQ Computing Project/QuiverCombinatoricsTools/docs/_build/latex/quivercombinatoricstools.tex
+**"/home/s2712241/Documents/PhD/AGQ Computing Project/quivercombinatoricstools.github.io/docs/_build/latex/quivercombinatoricstools.tex"
+(/home/s2712241/Documents/PhD/AGQ Computing Project/quivercombinatoricstools.github.io/docs/_build/latex/quivercombinatoricstools.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty
@@ -890,13 +890,15 @@ LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on 
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 92.
-(./quivercombinatoricstools.out) (./quivercombinatoricstools.out)
 \@outlinefile=\write5
 \openout5 = `quivercombinatoricstools.out'.
 
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 Package hyperref Info: Option `pageanchor' set `false' on input line 95.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
@@ -911,7 +913,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [2
 
 
-] (./quivercombinatoricstools.toc)
+]
+No file quivercombinatoricstools.toc.
 \tf@toc=\write6
 \openout6 = `quivercombinatoricstools.toc'.
 
@@ -1040,16 +1043,26 @@ No file quivercombinatoricstools.ind.
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `quivercombinatoricstools.out' has not changed.
-(rerunfilecheck)             Checksum: 089E9FB8098138D8235F9B44929B44B9;1246.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `quivercombinatoricstools.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `quivercombinatoricstools.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  089E9FB8098138D8235F9B44929B44B9;1246.
  ) 
 Here is how much of TeX's memory you used:
- 19933 strings out of 473835
- 389285 string characters out of 5731947
- 889527 words of memory out of 5000000
- 42611 multiletter control sequences out of 15000+600000
+ 19924 strings out of 473835
+ 389057 string characters out of 5731947
+ 886054 words of memory out of 5000000
+ 42608 multiletter control sequences out of 15000+600000
  567919 words of font info for 112 fonts, out of 8000000 for 9000
  1349 hyphenation exceptions out of 8191
- 79i,17n,94p,1309b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,17n,94p,1319b,703s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on quivercombinatoricstools.xdv (26 pages, 375684 bytes).
+Output written on quivercombinatoricstools.xdv (26 pages, 372308 bytes).

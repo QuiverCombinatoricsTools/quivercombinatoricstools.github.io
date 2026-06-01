@@ -18,7 +18,7 @@ and then you can simply run
    from quiver import *
    from quivercombinatorics import *
 
-to get started.
+to get started. You can also run it online here through `binder <https://mybinder.org/v2/gh/QuiverCombinatoricsTools/binder/HEAD>`_
 
 **Authors**
 

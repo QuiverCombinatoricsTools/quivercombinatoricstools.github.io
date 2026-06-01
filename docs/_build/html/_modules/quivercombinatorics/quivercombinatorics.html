@@ -7,7 +7,7 @@
         <link rel="prefetch" href="../../_static/logo-dark.svg" as="image">
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"><!-- Generated with Sphinx 8.2.3 and Furo 2025.12.19 -->
-        <title>quivercombinatorics.quivercombinatorics - QuiverCombinatoricsTools 1.0 documentation</title>
+        <title>quivercombinatorics.quivercombinatorics - QuiverCombinatoricsTools</title>
       <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=d111a655" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo.css?v=7bdb33bb" />
     <link rel="stylesheet" type="text/css" href="../../_static/styles/furo-extensions.css?v=8dab3a3b" />
@@ -163,7 +163,7 @@
       </label>
     </div>
     <div class="header-center">
-      <a href="../../index.html"><div class="brand">QuiverCombinatoricsTools 1.0 documentation</div></a>
+      <a href="../../index.html"><div class="brand">QuiverCombinatoricsTools</div></a>
     </div>
     <div class="header-right">
       <div class="theme-toggle-container theme-toggle-header">
@@ -188,7 +188,7 @@
     <img class="sidebar-logo only-dark" src="../../_static/logo-dark.svg" alt="Dark Logo"/>
   </div>
   
-  <span class="sidebar-brand-text">QuiverCombinatoricsTools 1.0 documentation</span>
+  <span class="sidebar-brand-text">QuiverCombinatoricsTools</span>
   
 </a><form class="sidebar-search-container" method="get" action="../../search.html" role="search">
   <input class="sidebar-search" placeholder="Search" name="q" aria-label="Search">
@@ -321,10 +321,10 @@
 <span class="sd">            [(0, 1), (0, 2), (0, 3)]</span>
 <span class="sd">        </span>
 <span class="sd">        &quot;&quot;&quot;</span>
-    <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
-        <span class="n">v</span> <span class="o">=</span> <span class="n">vector</span><span class="p">([</span><span class="n">v</span><span class="p">])</span>
-    <span class="k">else</span><span class="p">:</span>
+    <span class="k">try</span><span class="p">:</span>
         <span class="n">v</span> <span class="o">=</span> <span class="n">vector</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">vector</span><span class="p">([</span><span class="n">v</span><span class="p">])</span>
     <span class="n">reachable</span> <span class="o">=</span> <span class="p">{</span><span class="nb">tuple</span><span class="p">(</span><span class="n">a</span><span class="p">)</span> <span class="k">for</span> <span class="n">a</span> <span class="ow">in</span> <span class="n">S</span><span class="p">}</span>
     <span class="n">changed</span> <span class="o">=</span> <span class="kc">True</span>
     <span class="k">while</span> <span class="n">changed</span><span class="p">:</span>
@@ -915,10 +915,10 @@
 
 <span class="sd">        &quot;&quot;&quot;</span>
         <span class="n">rep_types_with_labels</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="nb">int</span><span class="p">):</span>
-            <span class="n">v</span> <span class="o">=</span> <span class="n">vector</span><span class="p">([</span><span class="n">v</span><span class="p">])</span>
-        <span class="k">else</span><span class="p">:</span>
+        <span class="k">try</span><span class="p">:</span>
             <span class="n">v</span> <span class="o">=</span> <span class="n">vector</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">TypeError</span><span class="p">:</span>
+            <span class="n">v</span> <span class="o">=</span> <span class="n">vector</span><span class="p">([</span><span class="n">v</span><span class="p">])</span>
         <span class="n">n</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">v</span><span class="p">)</span>
         <span class="n">A</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">adjacency_matrix</span><span class="p">()</span>
         <span class="n">G</span> <span class="o">=</span> <span class="n">DiGraph</span><span class="p">(</span><span class="n">matrix</span><span class="p">(</span><span class="n">A</span><span class="p">))</span>

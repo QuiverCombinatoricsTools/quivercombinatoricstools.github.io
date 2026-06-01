@@ -1,9 +1,9 @@
-PWD /home/s2712241/Documents/PhD/AGQ Computing Project/QuiverCombinatoricsTools/docs/_build/latex
+PWD /home/s2712241/Documents/PhD/AGQ Computing Project/quivercombinatoricstools.github.io/docs/_build/latex
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
-INPUT /home/s2712241/Documents/PhD/AGQ Computing Project/QuiverCombinatoricsTools/docs/_build/latex/quivercombinatoricstools.tex
+INPUT /home/s2712241/Documents/PhD/AGQ Computing Project/quivercombinatoricstools.github.io/docs/_build/latex/quivercombinatoricstools.tex
 OUTPUT quivercombinatoricstools.log
 INPUT /usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty
@@ -254,12 +254,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/tufontawesomefree.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/fontawesome5/tufontawesomebrands.fd
-INPUT ./quivercombinatoricstools.out
-INPUT ./quivercombinatoricstools.out
-INPUT quivercombinatoricstools.out
-INPUT quivercombinatoricstools.out
-INPUT ./quivercombinatoricstools.out
-INPUT ./quivercombinatoricstools.out
 OUTPUT quivercombinatoricstools.out
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
@@ -282,16 +276,13 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 OUTPUT quivercombinatoricstools.xdv
-INPUT ./quivercombinatoricstools.toc
-INPUT ./quivercombinatoricstools.toc
-INPUT quivercombinatoricstools.toc
+OUTPUT quivercombinatoricstools.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-OUTPUT quivercombinatoricstools.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
