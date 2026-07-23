@@ -1,5 +1,4 @@
 import random
-import dot2tex
 
 from sage.all import Integer, Poset
 from sage.combinat.partition import Partitions
@@ -854,7 +853,7 @@ class Quiver(BaseQuiver):
 
         - ``l`` -- an element of :math:`\mathbb{Z}Q_0`
         - ``v`` -- an element of :math:`\mathbb{N}Q_0`
-        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations.
+        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 2 will be used to obtain the Hasse diagram of minimal degenerations.
         - ``format`` -- Takes values "tikz", "dot", and "sage", depending on whether you want a ``.tex`` file with *tikzpicture*, a ``.dot`` file, or a sage Hasse diagram output
         - ``filename`` -- filename of output
 
@@ -931,6 +930,7 @@ class Quiver(BaseQuiver):
             lines.append('}')
             s = '\n'.join(lines)
             if format == "tikz":
+                import dot2tex
                 t = TikzPicture(dot2tex.dot2tex(s, format='tikz', figonly='True', prog='dot', rankdir='down'))
                 _ = t.tex(filename+".tex")
                 return t

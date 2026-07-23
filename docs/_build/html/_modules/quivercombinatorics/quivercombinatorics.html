@@ -229,7 +229,6 @@
         <article role="main" id="furo-main-content">
           <h1>Source code for quivercombinatorics.quivercombinatorics</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span><span class="w"> </span><span class="nn">random</span>
-<span class="kn">import</span><span class="w"> </span><span class="nn">dot2tex</span>
 
 <span class="kn">from</span><span class="w"> </span><span class="nn">sage.all</span><span class="w"> </span><span class="kn">import</span> <span class="n">Integer</span><span class="p">,</span> <span class="n">Poset</span>
 <span class="kn">from</span><span class="w"> </span><span class="nn">sage.combinat.partition</span><span class="w"> </span><span class="kn">import</span> <span class="n">Partitions</span>
@@ -1158,7 +1157,7 @@
 
 <span class="sd">        - ``l`` -- an element of :math:`\mathbb{Z}Q_0`</span>
 <span class="sd">        - ``v`` -- an element of :math:`\mathbb{N}Q_0`</span>
-<span class="sd">        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations.</span>
+<span class="sd">        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 2 will be used to obtain the Hasse diagram of minimal degenerations.</span>
 <span class="sd">        - ``format`` -- Takes values &quot;tikz&quot;, &quot;dot&quot;, and &quot;sage&quot;, depending on whether you want a ``.tex`` file with *tikzpicture*, a ``.dot`` file, or a sage Hasse diagram output</span>
 <span class="sd">        - ``filename`` -- filename of output</span>
 
@@ -1235,6 +1234,7 @@
             <span class="n">lines</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;}&#39;</span><span class="p">)</span>
             <span class="n">s</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">lines</span><span class="p">)</span>
             <span class="k">if</span> <span class="nb">format</span> <span class="o">==</span> <span class="s2">&quot;tikz&quot;</span><span class="p">:</span>
+                <span class="kn">import</span><span class="w"> </span><span class="nn">dot2tex</span>
                 <span class="n">t</span> <span class="o">=</span> <span class="n">TikzPicture</span><span class="p">(</span><span class="n">dot2tex</span><span class="o">.</span><span class="n">dot2tex</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;tikz&#39;</span><span class="p">,</span> <span class="n">figonly</span><span class="o">=</span><span class="s1">&#39;True&#39;</span><span class="p">,</span> <span class="n">prog</span><span class="o">=</span><span class="s1">&#39;dot&#39;</span><span class="p">,</span> <span class="n">rankdir</span><span class="o">=</span><span class="s1">&#39;down&#39;</span><span class="p">))</span>
                 <span class="n">_</span> <span class="o">=</span> <span class="n">t</span><span class="o">.</span><span class="n">tex</span><span class="p">(</span><span class="n">filename</span><span class="o">+</span><span class="s2">&quot;.tex&quot;</span><span class="p">)</span>
                 <span class="k">return</span> <span class="n">t</span>
