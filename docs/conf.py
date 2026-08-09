@@ -72,7 +72,7 @@ html_theme_options = {
 }
 html_favicon = "_static/favicon.ico"
 html_show_sourcelink = False
-viewcode_follow_imported_members = True
+viewcode_follow_imported_members = False
 autodoc_default_options = {
     "members": True,
     "inherited-members": True,

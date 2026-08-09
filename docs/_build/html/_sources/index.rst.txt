@@ -24,17 +24,29 @@ to get started. You can also run it online here through `binder <https://mybinde
 
 * Tudor-Ioan Caba (University of Edinburgh)
 * Mia Lam (University of Edinburgh)
-* Emanuel Roth (University of Edinburgh)
+* `Emanuel Roth <https://emanuel-roth.github.io/>`_ (University of Edinburgh)
 
-We were supervised by Gwyn Bellamy (University of Glasgow), as part of an `AGQ <https://www.agq-cdt.org/>`_ computing project.
+We were supervised by `Gwyn Bellamy <https://sites.google.com/view/gwynbellamy/home>`_ (University of Glasgow), as part of an `AGQ <https://www.agq-cdt.org/>`_ computing project.
+
+**How to cite QuiverCombinatoricsTools**
+
+If you have used this code in any way, please consider citing it in the following way
+
+.. code-block:: bibtex
+
+   @software{quivercombinatoricstools,
+      author = {Caba, Tudor-Ioan and Lam, Mia and Roth, Emanuel},
+      title = {QuiverCombinatoricsTools},
+      url = {https://quivercombinatoricstools.github.io},
+   }
 
 Generating quivers
 ==================
 
 Here are some functions that help generate quivers to test examples.
 
-.. autofunction:: quivercombinatorics.quiver_from_cartan_matrix
-.. autofunction:: quivercombinatorics.random_quiver
+.. autofunction:: quivercombinatorics.quivercombinatorics.quiver_from_cartan_matrix
+.. autofunction:: quivercombinatorics.quivercombinatorics.random_quiver
 
 We notate quivers by :math:`Q`, with vertices in :math:`Q_0` and edges in :math:`Q_1`.
 
@@ -61,7 +73,7 @@ We write :math:`R_\lambda^+` to denote the set of positive roots :math:`\alpha` 
 
 We also need the helper function ``N_set``.
 
-.. autofunction:: quivercombinatorics.N_set
+.. autofunction:: quivercombinatorics.quivercombinatorics.N_set
 
 With these functions, we can define :math:`\Sigma_{\lambda}`.
 
@@ -84,9 +96,9 @@ We allow :math:`\beta^{(i)}` to occur multiple times if it is an imaginary root,
 
 is maximal. In order to construct CB-decompositions (called canonical decompositions in `this paper <https://link.springer.com/article/10.1023/A:1017558904030>`__, but are *not* the same as ``canonical_decomposition`` from `QuiverTools`). We first need to find all representation types of :math:`x`, up to a bound :math:`v`, for which we need the following helper functions.
 
-.. autofunction:: quivercombinatorics.vector_decomposition
+.. autofunction:: quivercombinatorics.quivercombinatorics.vector_decomposition
 
-.. autofunction:: quivercombinatorics.small_decomposition
+.. autofunction:: quivercombinatorics.quivercombinatorics.small_decomposition
 
 With these functions, we can determine all representation types.
 
@@ -113,7 +125,7 @@ Let :math:`\tau=(\beta^{(1)},n_1;\dots;\beta^{(k)},n_k)` be a representation typ
 
 .. automethod:: quivercombinatorics.quivercombinatorics.Quiver.ext_quiver
 
-.. autofunction:: quivercombinatorics.ext_dimension_vector
+.. autofunction:: quivercombinatorics.quivercombinatorics.ext_dimension_vector
 
 Classification of minimal degenerations of symplectic leaves
 ============================================================
@@ -204,9 +216,9 @@ We visualize the poset of symplectic leaves (equivalently of representation type
 
 For Method 1, we need the following helper functions.
 
-.. autofunction:: quivercombinatorics.D_map
+.. autofunction:: quivercombinatorics.quivercombinatorics.D_map
 
-.. autofunction:: quivercombinatorics.D_lifting
+.. autofunction:: quivercombinatorics.quivercombinatorics.D_lifting
 
 .. automethod:: quivercombinatorics.quivercombinatorics.Quiver.minimal_degenerations
 
@@ -236,7 +248,7 @@ The symplectic leaves form a subset of this set of decompositions, and by restri
 
 .. automethod:: quivercombinatorics.quivercombinatorics.Quiver.all_decompositions
 
-.. autofunction:: quivercombinatorics.is_direct_successor
+.. autofunction:: quivercombinatorics.quivercombinatorics.is_direct_successor
 
 We are now able to obtain and plot the Hasse diagram for Methods 1 and 2. Method 1 seems to be much faster, so it is enabled by default.
 

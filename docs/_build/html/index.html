@@ -248,15 +248,24 @@
 <ul class="simple">
 <li><p>Tudor-Ioan Caba (University of Edinburgh)</p></li>
 <li><p>Mia Lam (University of Edinburgh)</p></li>
-<li><p>Emanuel Roth (University of Edinburgh)</p></li>
+<li><p><a class="reference external" href="https://emanuel-roth.github.io/">Emanuel Roth</a> (University of Edinburgh)</p></li>
 </ul>
-<p>We were supervised by Gwyn Bellamy (University of Glasgow), as part of an <a class="reference external" href="https://www.agq-cdt.org/">AGQ</a> computing project.</p>
+<p>We were supervised by <a class="reference external" href="https://sites.google.com/view/gwynbellamy/home">Gwyn Bellamy</a> (University of Glasgow), as part of an <a class="reference external" href="https://www.agq-cdt.org/">AGQ</a> computing project.</p>
+<p><strong>How to cite QuiverCombinatoricsTools</strong></p>
+<p>If you have used this code in any way, please consider citing it in the following way</p>
+<div class="highlight-bibtex notranslate"><div class="highlight"><pre><span></span><span class="nc">@software</span><span class="p">{</span><span class="nl">quivercombinatoricstools</span><span class="p">,</span>
+<span class="w">   </span><span class="na">author</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{Caba, Tudor-Ioan and Lam, Mia and Roth, Emanuel}</span><span class="p">,</span>
+<span class="w">   </span><span class="na">title</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{QuiverCombinatoricsTools}</span><span class="p">,</span>
+<span class="w">   </span><span class="na">url</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">{https://quivercombinatoricstools.github.io}</span><span class="p">,</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 <section id="generating-quivers">
 <h2>Generating quivers<a class="headerlink" href="#generating-quivers" title="Link to this heading">¶</a></h2>
 <p>Here are some functions that help generate quivers to test examples.</p>
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.quiver_from_cartan_matrix">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">quiver_from_cartan_matrix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">C</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#quiver_from_cartan_matrix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quiver_from_cartan_matrix" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.quiver_from_cartan_matrix">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">quiver_from_cartan_matrix</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">C</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#quiver_from_cartan_matrix"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.quiver_from_cartan_matrix" title="Link to this definition">¶</a></dt>
 <dd><p>Returns the quiver <span class="math notranslate nohighlight">\(Q\)</span> given by a Cartan matrix <span class="math notranslate nohighlight">\(C\)</span></p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -273,8 +282,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.random_quiver">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">random_quiver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vertices</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_arrows_per_edge</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#random_quiver"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.random_quiver" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.random_quiver">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">random_quiver</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">vertices</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_arrows_per_edge</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#random_quiver"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.random_quiver" title="Link to this definition">¶</a></dt>
 <dd><p>Returns a randomly generated quiver</p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -348,8 +357,8 @@
 
 <p>We also need the helper function <code class="docutils literal notranslate"><span class="pre">N_set</span></code>.</p>
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.N_set">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">N_set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">S</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#N_set"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.N_set" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.N_set">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">N_set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">S</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">v</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#N_set"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.N_set" title="Link to this definition">¶</a></dt>
 <dd><p>For a list of vectors <span class="math notranslate nohighlight">\(S\)</span> in <span class="math notranslate nohighlight">\(\mathbb{Z}Q_0\)</span>, returns all possible sums of vectors in <span class="math notranslate nohighlight">\(S\)</span> as a list, up to the upper bound <span class="math notranslate nohighlight">\(v\)</span>. Though not directly about quivers, this is a helper function to define <span class="math notranslate nohighlight">\(\Sigma_\lambda\)</span></p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -400,8 +409,8 @@
 </div>
 <p>is maximal. In order to construct CB-decompositions (called canonical decompositions in <a class="reference external" href="https://link.springer.com/article/10.1023/A:1017558904030">this paper</a>, but are <em>not</em> the same as <code class="docutils literal notranslate"><span class="pre">canonical_decomposition</span></code> from <cite>QuiverTools</cite>). We first need to find all representation types of <span class="math notranslate nohighlight">\(x\)</span>, up to a bound <span class="math notranslate nohighlight">\(v\)</span>, for which we need the following helper functions.</p>
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.vector_decomposition">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">vector_decomposition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">S</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#vector_decomposition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.vector_decomposition" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.vector_decomposition">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">vector_decomposition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">S</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#vector_decomposition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.vector_decomposition" title="Link to this definition">¶</a></dt>
 <dd><p>For a list of vectors <span class="math notranslate nohighlight">\(S\)</span> in <span class="math notranslate nohighlight">\(\mathbb{Z}Q_0\)</span>, returns all possible sums of vectors in <span class="math notranslate nohighlight">\(S\)</span> as a list that sum up to <span class="math notranslate nohighlight">\(x\)</span>. This is a helper function in order to define CB-decompositions</p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -422,8 +431,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.small_decomposition">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">small_decomposition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">v</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#small_decomposition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.small_decomposition" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.small_decomposition">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">small_decomposition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">v</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">n</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#small_decomposition"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.small_decomposition" title="Link to this definition">¶</a></dt>
 <dd><p>For a vector <span class="math notranslate nohighlight">\(v\)</span> in <span class="math notranslate nohighlight">\(\mathbb{Z}Q_0\)</span>, it returns all possible partitions of the representation type <span class="math notranslate nohighlight">\([v,n]\)</span></p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -596,8 +605,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.ext_dimension_vector">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">ext_dimension_vector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tau</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#ext_dimension_vector"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.ext_dimension_vector" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.ext_dimension_vector">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">ext_dimension_vector</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tau</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#ext_dimension_vector"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.ext_dimension_vector" title="Link to this definition">¶</a></dt>
 <dd><p>For a representation type <span class="math notranslate nohighlight">\(\tau\)</span>, returns the associated dimension vector</p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -767,8 +776,8 @@
 </div>
 <p>For Method 1, we need the following helper functions.</p>
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.D_map">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">D_map</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">m</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tau</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#D_map"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.D_map" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.D_map">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">D_map</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">m</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tau</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#D_map"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.D_map" title="Link to this definition">¶</a></dt>
 <dd><p>Evaluates a map <span class="math notranslate nohighlight">\(D:\mathbb{Z}^k\to\mathbb{Z}^n\)</span> from dimension vectors of the <span class="math notranslate nohighlight">\(\mathrm{ext}\)</span>-quiver to dimension vectors of the original quiver by <span class="math notranslate nohighlight">\(D(m_1,\dots,m_k):=\sum_{i=1}^k m_i\beta^{(i)}\)</span></p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -786,8 +795,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.D_lifting">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">D_lifting</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tau</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">L</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#D_lifting"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.D_lifting" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.D_lifting">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">D_lifting</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tau</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">L</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#D_lifting"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.D_lifting" title="Link to this definition">¶</a></dt>
 <dd><p>Applies <code class="docutils literal notranslate"><span class="pre">D_map</span></code> to a representation type of the <span class="math notranslate nohighlight">\(\mathrm{ext}\)</span>-quiver</p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -873,8 +882,8 @@
 </dd></dl>
 
 <dl class="py function">
-<dt class="sig sig-object py" id="quivercombinatorics.is_direct_successor">
-<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">is_direct_successor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epsilon</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rho</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#is_direct_successor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.is_direct_successor" title="Link to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="quivercombinatorics.quivercombinatorics.is_direct_successor">
+<span class="sig-prename descclassname"><span class="pre">quivercombinatorics.quivercombinatorics.</span></span><span class="sig-name descname"><span class="pre">is_direct_successor</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">epsilon</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rho</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/quivercombinatorics/quivercombinatorics.html#is_direct_successor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#quivercombinatorics.quivercombinatorics.is_direct_successor" title="Link to this definition">¶</a></dt>
 <dd><p>Verifies whether <code class="docutils literal notranslate"><span class="pre">epsilon</span></code> is the direct successor of <code class="docutils literal notranslate"><span class="pre">rho</span></code></p>
 <p>INPUT:</p>
 <ul class="simple">
@@ -901,7 +910,7 @@
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">l</span></code> – an element of <span class="math notranslate nohighlight">\(\mathbb{Z}Q_0\)</span></p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">v</span></code> – an element of <span class="math notranslate nohighlight">\(\mathbb{N}Q_0\)</span></p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">method</span></code> – When set to <code class="docutils literal notranslate"><span class="pre">1</span></code>, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to <code class="docutils literal notranslate"><span class="pre">2</span></code>, Method 1 will be used to obtain the Hasse diagram of minimal degenerations.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">method</span></code> – When set to <code class="docutils literal notranslate"><span class="pre">1</span></code>, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to <code class="docutils literal notranslate"><span class="pre">2</span></code>, Method 2 will be used to obtain the Hasse diagram of minimal degenerations.</p></li>
 </ul>
 <p>OUTPUT:</p>
 <ul class="simple">
@@ -1036,20 +1045,20 @@ Use print to see the full content.
             <ul>
 <li><a class="reference internal" href="#">QuiverCombinatoricsTools</a><ul>
 <li><a class="reference internal" href="#generating-quivers">Generating quivers</a><ul>
-<li><a class="reference internal" href="#quivercombinatorics.quiver_from_cartan_matrix"><code class="docutils literal notranslate"><span class="pre">quiver_from_cartan_matrix()</span></code></a></li>
-<li><a class="reference internal" href="#quivercombinatorics.random_quiver"><code class="docutils literal notranslate"><span class="pre">random_quiver()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.quiver_from_cartan_matrix"><code class="docutils literal notranslate"><span class="pre">quiver_from_cartan_matrix()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.random_quiver"><code class="docutils literal notranslate"><span class="pre">random_quiver()</span></code></a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#constructing-sigma-lambda">Constructing <span class="math notranslate nohighlight">\(\Sigma_{\lambda}\)</span></a><ul>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.p_function"><code class="docutils literal notranslate"><span class="pre">Quiver.p_function()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.R_lambda_plus"><code class="docutils literal notranslate"><span class="pre">Quiver.R_lambda_plus()</span></code></a></li>
-<li><a class="reference internal" href="#quivercombinatorics.N_set"><code class="docutils literal notranslate"><span class="pre">N_set()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.N_set"><code class="docutils literal notranslate"><span class="pre">N_set()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.sigma_lambda"><code class="docutils literal notranslate"><span class="pre">Quiver.sigma_lambda()</span></code></a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#cb-decompositions">CB-decompositions</a><ul>
-<li><a class="reference internal" href="#quivercombinatorics.vector_decomposition"><code class="docutils literal notranslate"><span class="pre">vector_decomposition()</span></code></a></li>
-<li><a class="reference internal" href="#quivercombinatorics.small_decomposition"><code class="docutils literal notranslate"><span class="pre">small_decomposition()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.vector_decomposition"><code class="docutils literal notranslate"><span class="pre">vector_decomposition()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.small_decomposition"><code class="docutils literal notranslate"><span class="pre">small_decomposition()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.all_representation_types"><code class="docutils literal notranslate"><span class="pre">Quiver.all_representation_types()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.symplectic_leaf_dimension"><code class="docutils literal notranslate"><span class="pre">Quiver.symplectic_leaf_dimension()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.CB_decomposition"><code class="docutils literal notranslate"><span class="pre">Quiver.CB_decomposition()</span></code></a></li>
@@ -1059,7 +1068,7 @@ Use print to see the full content.
 </li>
 <li><a class="reference internal" href="#mathrm-ext-quivers"><span class="math notranslate nohighlight">\(\mathrm{ext}\)</span>-quivers</a><ul>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.ext_quiver"><code class="docutils literal notranslate"><span class="pre">Quiver.ext_quiver()</span></code></a></li>
-<li><a class="reference internal" href="#quivercombinatorics.ext_dimension_vector"><code class="docutils literal notranslate"><span class="pre">ext_dimension_vector()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.ext_dimension_vector"><code class="docutils literal notranslate"><span class="pre">ext_dimension_vector()</span></code></a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#classification-of-minimal-degenerations-of-symplectic-leaves">Classification of minimal degenerations of symplectic leaves</a><ul>
@@ -1069,11 +1078,11 @@ Use print to see the full content.
 </ul>
 </li>
 <li><a class="reference internal" href="#plotting-minimal-degenerations-of-symplectic-leaves-in-hasse-diagrams">Plotting minimal degenerations of symplectic leaves in Hasse diagrams</a><ul>
-<li><a class="reference internal" href="#quivercombinatorics.D_map"><code class="docutils literal notranslate"><span class="pre">D_map()</span></code></a></li>
-<li><a class="reference internal" href="#quivercombinatorics.D_lifting"><code class="docutils literal notranslate"><span class="pre">D_lifting()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.D_map"><code class="docutils literal notranslate"><span class="pre">D_map()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.D_lifting"><code class="docutils literal notranslate"><span class="pre">D_lifting()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.minimal_degenerations"><code class="docutils literal notranslate"><span class="pre">Quiver.minimal_degenerations()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.all_decompositions"><code class="docutils literal notranslate"><span class="pre">Quiver.all_decompositions()</span></code></a></li>
-<li><a class="reference internal" href="#quivercombinatorics.is_direct_successor"><code class="docutils literal notranslate"><span class="pre">is_direct_successor()</span></code></a></li>
+<li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.is_direct_successor"><code class="docutils literal notranslate"><span class="pre">is_direct_successor()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.get_Hasse_diagram"><code class="docutils literal notranslate"><span class="pre">Quiver.get_Hasse_diagram()</span></code></a></li>
 <li><a class="reference internal" href="#quivercombinatorics.quivercombinatorics.Quiver.plot_Hasse_diagram"><code class="docutils literal notranslate"><span class="pre">Quiver.plot_Hasse_diagram()</span></code></a></li>
 </ul>

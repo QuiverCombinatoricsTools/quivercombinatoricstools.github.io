@@ -759,7 +759,7 @@ class Quiver(BaseQuiver):
 
         - ``l`` -- an element of :math:`\mathbb{Z}Q_0`
         - ``v`` -- an element of :math:`\mathbb{N}Q_0`
-        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations.
+        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 2 will be used to obtain the Hasse diagram of minimal degenerations.
 
         OUTPUT: 
         

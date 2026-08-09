@@ -246,7 +246,7 @@
 <span class="kn">from</span><span class="w"> </span><span class="nn">quiver</span><span class="w"> </span><span class="kn">import</span> <span class="n">Quiver</span> <span class="k">as</span> <span class="n">BaseQuiver</span>
 
 <div class="viewcode-block" id="quiver_from_cartan_matrix">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.quiver_from_cartan_matrix">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.quiver_from_cartan_matrix">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">quiver_from_cartan_matrix</span><span class="p">(</span><span class="n">C</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns the quiver :math:`Q` given by a Cartan matrix :math:`C`</span>
 <span class="sd">        </span>
@@ -273,7 +273,7 @@
 
 
 <div class="viewcode-block" id="random_quiver">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.random_quiver">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.random_quiver">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">random_quiver</span><span class="p">(</span><span class="n">vertices</span><span class="p">,</span> <span class="n">max_arrows_per_edge</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns a randomly generated quiver</span>
 <span class="sd">        </span>
@@ -302,7 +302,7 @@
 
 
 <div class="viewcode-block" id="N_set">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.N_set">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.N_set">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">N_set</span><span class="p">(</span><span class="n">S</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;For a list of vectors :math:`S` in :math:`\mathbb{Z}Q_0`, returns all possible sums of vectors in :math:`S` as a list, up to the upper bound :math:`v`. Though not directly about quivers, this is a helper function to define :math:`\Sigma_\lambda`</span>
 <span class="sd">        </span>
@@ -341,7 +341,7 @@
 
 
 <div class="viewcode-block" id="vector_decomposition">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.vector_decomposition">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.vector_decomposition">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">vector_decomposition</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">S</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;For a list of vectors :math:`S` in :math:`\mathbb{Z}Q_0`, returns all possible sums of vectors in :math:`S` as a list that sum up to :math:`x`. This is a helper function in order to define CB-decompositions</span>
 <span class="sd">        </span>
@@ -380,7 +380,7 @@
 
 
 <div class="viewcode-block" id="small_decomposition">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.small_decomposition">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.small_decomposition">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">small_decomposition</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;For a vector :math:`v` in :math:`\mathbb{Z}Q_0`, it returns all possible partitions of the representation type :math:`[v,n]`</span>
 <span class="sd">        </span>
@@ -410,7 +410,7 @@
 
 
 <div class="viewcode-block" id="ext_dimension_vector">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.ext_dimension_vector">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.ext_dimension_vector">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">ext_dimension_vector</span><span class="p">(</span><span class="n">tau</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;For a representation type :math:`\\tau`, returns the associated dimension vector</span>
 
@@ -431,7 +431,7 @@
 
 
 <div class="viewcode-block" id="D_map">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.D_map">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.D_map">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">D_map</span><span class="p">(</span><span class="n">m</span><span class="p">,</span> <span class="n">tau</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Evaluates a map :math:`D:\mathbb{Z}^k\to\mathbb{Z}^n` from dimension vectors of the :math:`\mathrm{ext}`-quiver to dimension vectors of the original quiver by :math:`D(m_1,\dots,m_k):=\sum_{i=1}^k m_i\beta^{(i)}`</span>
 
@@ -454,7 +454,7 @@
 
 
 <div class="viewcode-block" id="D_lifting">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.D_lifting">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.D_lifting">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">D_lifting</span><span class="p">(</span><span class="n">tau</span><span class="p">,</span> <span class="n">L</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Applies ``D_map`` to a representation type of the :math:`\mathrm{ext}`-quiver</span>
 
@@ -480,7 +480,7 @@
 
     
 <div class="viewcode-block" id="is_direct_successor">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.is_direct_successor">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.is_direct_successor">[docs]</a>
 <span class="k">def</span><span class="w"> </span><span class="nf">is_direct_successor</span><span class="p">(</span><span class="n">epsilon</span><span class="p">,</span> <span class="n">rho</span><span class="p">):</span>
 <span class="w">    </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Verifies whether ``epsilon`` is the direct successor of ``rho``</span>
 <span class="sd">        </span>
@@ -523,7 +523,7 @@
 
 <span class="k">class</span><span class="w"> </span><span class="nc">Quiver</span><span class="p">(</span><span class="n">BaseQuiver</span><span class="p">):</span>
 <div class="viewcode-block" id="Quiver.p_function">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.p_function">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.p_function">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">p_function</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Outputs the function :math:`p(x) = 1 - \frac{1}{2}(x, x)`, where :math:`(x, x)` is the symmetrized Euler form. Note that :math:`p(x)\geq 0` if :math:`x` is a root, and :math:`p(x) = 0` if and only if :math:`x` is a real root</span>
 <span class="sd">        </span>
@@ -545,7 +545,7 @@
 
 
 <div class="viewcode-block" id="Quiver.R_lambda_plus">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.R_lambda_plus">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.R_lambda_plus">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">R_lambda_plus</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns a list of elements of :math:`R_\lambda^+`, the set of positive roots :math:`\alpha` with :math:`\alpha\cdot\lambda=0`, up to the upper bound :math:`v`</span>
 
@@ -574,7 +574,7 @@
 
 
 <div class="viewcode-block" id="Quiver.sigma_lambda">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.sigma_lambda">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.sigma_lambda">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">sigma_lambda</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns a list of elements of :math:`\Sigma_\lambda`, up to the upper bound :math:`v`</span>
 
@@ -606,7 +606,7 @@
 
 
 <div class="viewcode-block" id="Quiver.all_representation_types">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.all_representation_types">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.all_representation_types">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">all_representation_types</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns a list of representation types of a quiver, with respect to :math:`x`</span>
 
@@ -674,7 +674,7 @@
 
     
 <div class="viewcode-block" id="Quiver.symplectic_leaf_dimension">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.symplectic_leaf_dimension">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.symplectic_leaf_dimension">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">symplectic_leaf_dimension</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tau</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns the dimension of the symplectic leaf corresponding to the representation type :math:`\tau`</span>
 
@@ -700,7 +700,7 @@
 
 
 <div class="viewcode-block" id="Quiver.CB_decomposition">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.CB_decomposition">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.CB_decomposition">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">CB_decomposition</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns the CB decomposition, which is the representation type maximizing :math:`p`</span>
 
@@ -732,7 +732,7 @@
 
     
 <div class="viewcode-block" id="Quiver.quiver_variety_dimension">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.quiver_variety_dimension">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.quiver_variety_dimension">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">quiver_variety_dimension</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns the dimension of the quiver variety</span>
 
@@ -756,7 +756,7 @@
 
     
 <div class="viewcode-block" id="Quiver.codimension_two_leaves">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.codimension_two_leaves">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.codimension_two_leaves">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">codimension_two_leaves</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns the codimension 2 leaves of the quiver variety</span>
 
@@ -791,7 +791,7 @@
 
     
 <div class="viewcode-block" id="Quiver.ext_quiver">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.ext_quiver">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.ext_quiver">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">ext_quiver</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tau</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Given a representation type, returns the ext-quiver</span>
 
@@ -820,7 +820,7 @@
 
 
 <div class="viewcode-block" id="Quiver.is_minimal_imaginary_root">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.is_minimal_imaginary_root">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.is_minimal_imaginary_root">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">is_minimal_imaginary_root</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Tests whether a vector is a vector is a minimal imaginary root</span>
 
@@ -842,7 +842,7 @@
 
 
 <div class="viewcode-block" id="Quiver.all_minimal_imaginary_positive_roots">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.all_minimal_imaginary_positive_roots">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.all_minimal_imaginary_positive_roots">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">all_minimal_imaginary_positive_roots</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns all minimal imaginary positive roots up to a bound :math:`v`</span>
 
@@ -869,7 +869,7 @@
 
     
 <div class="viewcode-block" id="Quiver.all_subminimal_representation_types">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.all_subminimal_representation_types">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.all_subminimal_representation_types">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">all_subminimal_representation_types</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns all subminimal representation types up to a bound :math:`v`, and classifies them by affine Dynkin type, or :math:`a_{r-1}`, :math:`c_{g}`, :math:`m_{g}`</span>
 
@@ -981,7 +981,7 @@
 
     
 <div class="viewcode-block" id="Quiver.minimal_degenerations">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.minimal_degenerations">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.minimal_degenerations">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">minimal_degenerations</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">L</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Returns all minimal degenerations of a a symplectic leaf, corresponding to the representation type :math:`L`</span>
 
@@ -1018,7 +1018,7 @@
 
     
 <div class="viewcode-block" id="Quiver.all_decompositions">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.all_decompositions">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.all_decompositions">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">all_decompositions</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">v</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Constructs all decompositions of a given dimension vector :math:`v`</span>
 
@@ -1052,7 +1052,7 @@
 
 
 <div class="viewcode-block" id="Quiver.get_Hasse_diagram">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.get_Hasse_diagram">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.get_Hasse_diagram">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">get_Hasse_diagram</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Applies Method 1 or Method 2 to obtain data for the Hasse diagram of minimal degenerations</span>
 
@@ -1060,7 +1060,7 @@
 
 <span class="sd">        - ``l`` -- an element of :math:`\mathbb{Z}Q_0`</span>
 <span class="sd">        - ``v`` -- an element of :math:`\mathbb{N}Q_0`</span>
-<span class="sd">        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations.</span>
+<span class="sd">        - ``method`` -- When set to ``1``, Method 1 will be used to obtain the Hasse diagram of minimal degenerations. When set to ``2``, Method 2 will be used to obtain the Hasse diagram of minimal degenerations.</span>
 
 <span class="sd">        OUTPUT: </span>
 <span class="sd">        </span>
@@ -1149,7 +1149,7 @@
 
 
 <div class="viewcode-block" id="Quiver.plot_Hasse_diagram">
-<a class="viewcode-back" href="../../index.html#quivercombinatorics.Quiver.plot_Hasse_diagram">[docs]</a>
+<a class="viewcode-back" href="../../index.html#quivercombinatorics.quivercombinatorics.Quiver.plot_Hasse_diagram">[docs]</a>
     <span class="k">def</span><span class="w"> </span><span class="nf">plot_Hasse_diagram</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">l</span><span class="p">,</span> <span class="n">v</span><span class="p">,</span> <span class="n">method</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s2">&quot;tikz&quot;</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="s2">&quot;output&quot;</span><span class="p">):</span>
 <span class="w">        </span><span class="sa">r</span><span class="sd">&quot;&quot;&quot;Applies Method 1 or Method 2 to plot the Hasse diagram for minimal degenerations</span>
 
