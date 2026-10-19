@@ -39,6 +39,7 @@ jobs:
 
           sage --pip install sphinx
           sage --pip install sphinx-book-theme
+          sage --pip install furo
           sage --pip install dot2tex
 
           cd /tmp/build && rm -rf .git

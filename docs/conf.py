@@ -31,8 +31,14 @@ extensions = [
     "sphinx.ext.mathjax",
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
-    "sphinxcontrib.inkscapeconverter",
 ]
+
+# Only needed for the LaTeX/PDF build (SVG -> PDF); optional for HTML.
+try:
+    import sphinxcontrib.inkscapeconverter  # noqa: F401
+    extensions.append("sphinxcontrib.inkscapeconverter")
+except ImportError:
+    pass
 
 mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 mathjax3_config = {
