@@ -23,7 +23,7 @@ to get started. You can also run it online here through `binder <https://mybinde
 **Authors**
 
 * Tudor-Ioan Caba (University of Edinburgh)
-* Mia Lam (University of Edinburgh)
+* `Mia Lam <https://ml975.user.srcf.net/>`_ (University of Edinburgh)
 * `Emanuel Roth <https://emanuel-roth.github.io/>`_ (University of Edinburgh)
 
 We were supervised by `Gwyn Bellamy <https://sites.google.com/view/gwynbellamy/home>`_ (University of Glasgow), as part of an `AGQ <https://www.agq-cdt.org/>`_ computing project.
